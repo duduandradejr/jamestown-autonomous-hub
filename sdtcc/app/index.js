@@ -16,7 +16,7 @@ app.get('/api/status', (req, res) => {
         sector: "GH-01",
         timestamp: new Date().toISOString(),
         leaf_status: "fungo_patogeno",
-        temperature_c: 24.5,
+        temperature_c: 25.0,
         humidity_pct: 88.0,
         risk_score: 0.87,
         recommended_action: "isolar setor GH-01 e inspecionar filtro de ar"
